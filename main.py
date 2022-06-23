@@ -2,7 +2,7 @@
 import requests
 import sys
 import tkinter as tk
-from tkinter import  messagebox
+from tkinter import messagebox
 
 def check_conn():
     try:
@@ -12,6 +12,7 @@ def check_conn():
         sys.exit(0)
 def download_video():
     request = requests.get("")
+
 
 if __name__ == "__main__":
     check_conn()
